@@ -1,9 +1,9 @@
 package com.database.student;
 
-import com.database.student.model.Passport;
+import static com.database.student.view.StudentView.runInterface;
 
 public class Main {
     public static void main(String[] args) {
-
+        runInterface();
     }
 }

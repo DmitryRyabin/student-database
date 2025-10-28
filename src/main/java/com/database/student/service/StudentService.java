@@ -1,6 +1,6 @@
 package com.database.student.service;
 
-import com.database.student.model.Student;
+import com.database.student.model.Faculty;
 
 import java.time.LocalDate;
 
@@ -9,6 +9,7 @@ public interface StudentService {
     boolean saveStudent(String series, String number, String name,
                         String lastName,  LocalDate birthDate,
                         String birthPlace,  String phoneNumber,
-                        String address,  String email,  String faculty);
+                        String address,  String email, Faculty faculty);
+
     boolean deleteStudent(String series, String number);
 }
